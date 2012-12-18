@@ -7,7 +7,7 @@ gem 'rails', '3.2.9'
 
 group :development, :test do
 	gem 'sqlite3'
-	gem 'rspec-rails'
+	gem 'rspec-rails', '2.11.0'
 end
 
 
@@ -22,7 +22,7 @@ end
 gem 'jquery-rails'
 
 group :test do
-	gem 'capybara'
+	gem 'capybara', '1.1.2'
 end
 
 group :production do
